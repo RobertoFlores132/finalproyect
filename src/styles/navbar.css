@@ -1,0 +1,45 @@
+.navbar{
+    position: relative;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-bottom: 50px;
+    padding: 8px 10px 20px 10px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    display: flex;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 1.4%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    transform: scale(0);
+    transition: .3s;
+    transform-origin: top;
+}
+.login.open{
+    transform: scale(1);
+}
+.navbar nav strong{
+    color: #f85555;
+    font-size: 2rem;
+}
+.navbar nav a{
+    text-decoration: none;
+}
+
+.navbar nav div button{
+   margin-right: 100px;
+   border: 0;
+   background-color: white;
+   cursor: pointer;
+}
+
+.navbar .fa-solid{
+    font-size: 30px;
+    color: rgb(188, 187, 187);
+}
